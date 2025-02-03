@@ -56,3 +56,26 @@ cargo run
 ```
 
 This will execute the Rust program that loads the WebAssembly module and calls the `add` function with parameters 5 and 10, displaying the result.
+
+## Rust to WebAssembly Example
+
+### Compiling Rust to WASM
+1. Add wasm32 target:
+```bash
+rustup target add wasm32-unknown-unknown
+```
+
+2. Compile the library to WASM:
+```bash
+cd wasmer-example
+cargo build --target wasm32-unknown-unknown --release
+```
+
+This will create a WASM file at `target/wasm32-unknown-unknown/release/wasmer_example.wasm`
+
+3. Run the example:
+```bash
+cargo run
+```
+
+This will load the compiled WASM module and run the multiply function with parameters 7 and 6.

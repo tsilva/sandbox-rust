@@ -1,1 +1,2 @@
-https://doc.rust-lang.org/rust-by-example/types.html
+- https://doc.rust-lang.org/rust-by-example/types.html
+- Add example of compiling Rust to WASM and then running with WASMER
