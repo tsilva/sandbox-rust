@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
+# Install WABT (Includes wat2wasm)
+RUN apt-get update && apt-get install -y wabt
+
 # Install NVM
 ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION 18.16.0
