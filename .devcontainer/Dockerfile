@@ -32,8 +32,14 @@ RUN source $NVM_DIR/nvm.sh \
     && nvm alias default $NODE_VERSION \
     && nvm use default
 
-# Install Rust
+# Move Wasmer installation after user creation and before workspace setup
 USER devuser
+RUN curl https://get.wasmer.io -sSfL | sh
+
+# Add Wasmer to devuser's PATH
+ENV PATH="/home/devuser/.wasmer/bin:${PATH}"
+
+# Install Rust
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ENV PATH=/home/devuser/.cargo/bin:$PATH
 
