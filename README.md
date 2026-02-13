@@ -1,7 +1,7 @@
 <div align="center">
   <img src="logo.png" alt="sandbox-rust" width="512"/>
 
-  **🦀 Rust learning sandbox with examples and WebAssembly projects**
+  **🦀 Rust sandbox with WebAssembly examples and Wasmer runtime 🕸️**
 
 </div>
 
