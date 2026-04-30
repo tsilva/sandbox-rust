@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="sandbox-rust" width="512"/>
+  <img src="https://raw.githubusercontent.com/tsilva/sandbox-rust/main/logo.png" alt="sandbox-rust" width="512"/>
 
   **🦀 Rust sandbox with WebAssembly examples and Wasmer runtime 🕸️**
 
