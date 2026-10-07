@@ -1,9 +1,10 @@
-<div align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/tsilva/sandbox-rust/main/logo.png" alt="sandbox-rust" width="512"/>
-
-  **🦀 Rust sandbox with WebAssembly examples and Wasmer runtime 🕸️**
-
-</div>
+  <br />
+  <!-- repo-tagline:start -->
+  <strong>🦀 Rust sandbox with WebAssembly examples and Wasmer runtime 🕸️</strong>
+  <!-- repo-tagline:end -->
+</p>
 
 ## Overview
 
